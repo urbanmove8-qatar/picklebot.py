@@ -1,0 +1,40 @@
+# --- Python Bytecode & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- Environments & Secrets ---
+.env
+.venv
+env/
+venv/
+ENV/
+bin/
+lib/
+develop-eggs/
+
+# --- Build & Distribution ---
+dist/
+build/
+*.egg-info/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# --- IDE Specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Picklebot Specific ---
+# If you create a local config for testing, ignore it
+config.json
+secrets.py
